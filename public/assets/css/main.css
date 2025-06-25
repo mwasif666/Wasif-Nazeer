@@ -3698,6 +3698,12 @@ Preloader
   transform: rotate(45deg);
   background: linear-gradient(90deg, #6d4df2 0%, #8c71ff 100%);
 }
+.filter-item img
+  {
+    height: 280px;
+    object-fit: cover;
+    object-position: top;
+}
 
 .grid-sizer,
 .grid-item {

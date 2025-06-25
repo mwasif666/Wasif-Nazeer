@@ -82,7 +82,7 @@ export default function PortfolioFilter() {
         </div>
         <div className="row masonry-active justify-content-between mt-6">
           <div className="grid-sizer" />
-          <div className="filter-item col-lg-6 col-12 brand ui app">
+          <div className="filter-item col-lg-4 col-12 ui">
             <div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
               <Link href="	">
                 <img
@@ -105,7 +105,76 @@ export default function PortfolioFilter() {
               </div>
             </div>
           </div>
-          <div className="filter-item col-lg-6 col-12 webdesign brand dataanalysis brand">
+          <div className="filter-item col-lg-4 col-12 dataanalysis brand">
+            <div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
+              <Link href="#">
+                <img
+                  className="rounded-3 w-100 zoom-img"
+                  src="/assets/imgs/GProject/21.jpg"
+                  alt="infinia"
+                />
+              </Link>
+              <div className="d-flex align-items-center mt-4">
+                <Link href="#" className="project-card-content">
+                  <h3 className="fw-semibold">Design Post</h3>
+                  <p>Silly18</p>
+                </Link>
+                <Link
+                  href="#"
+                  className="project-card-icon icon-shape ms-auto icon-md rounded-circle"
+                >
+                  <i className="ri-arrow-right-up-line" />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="filter-item col-lg-4 col-12 dataanalysis brand">
+            <div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
+              <Link href="#">
+                <img
+                  className="rounded-3 w-100 zoom-img"
+                  src="/assets/imgs/GProject/6.jpg"
+                  alt="infinia"
+                />
+              </Link>
+              <div className="d-flex align-items-center mt-4">
+                <Link href="#" className="project-card-content">
+                  <h3 className="fw-semibold">Design Brand</h3>
+                  <p>Wara</p>
+                </Link>
+                <Link
+                  href="#"
+                  className="project-card-icon icon-shape ms-auto icon-md rounded-circle"
+                >
+                  <i className="ri-arrow-right-up-line" />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="filter-item col-lg-4 col-12 dataanalysis brand">
+            <div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
+              <Link href="#">
+                <img
+                  className="rounded-3 w-100 zoom-img"
+                  src="/assets/imgs/GProject/19.jpg"
+                  alt="infinia"
+                />
+              </Link>
+              <div className="d-flex align-items-center mt-4">
+                <Link href="#" className="project-card-content">
+                  <h3 className="fw-semibold">Design Consultation</h3>
+                  <p>enny</p>
+                </Link>
+                <Link
+                  href="#"
+                  className="project-card-icon icon-shape ms-auto icon-md rounded-circle"
+                >
+                  <i className="ri-arrow-right-up-line" />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="filter-item col-lg-4 col-12 app dataanalysis">
             <div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
               <Link href="#">
                 <img
@@ -128,7 +197,7 @@ export default function PortfolioFilter() {
               </div>
             </div>
           </div>
-          <div className="filter-item col-lg-6 col-12 ui app">
+          <div className="filter-item col-lg-4 col-12 ui">
             <div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
               <Link href="#">
                 <img
@@ -141,29 +210,6 @@ export default function PortfolioFilter() {
                 <Link href="#" className="project-card-content">
                   <h3 className="fw-semibold">Interaction Design</h3>
                   <p>HealthTrack Solutions</p>
-                </Link>
-                <Link
-                  href="#"
-                  className="project-card-icon icon-shape ms-auto icon-md rounded-circle"
-                >
-                  <i className="ri-arrow-right-up-line" />
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="filter-item col-lg-6 col-12 app app dataanalysis brand">
-            <div className="project-item rounded-4 overflow-hidden position-relative p-md-4 p-3 bg-white">
-              <Link href="#">
-                <img
-                  className="rounded-3 w-100 zoom-img"
-                  src="/assets/imgs/projects/projects-1/img-4.png"
-                  alt="infinia"
-                />
-              </Link>
-              <div className="d-flex align-items-center mt-4">
-                <Link href="#" className="project-card-content">
-                  <h3 className="fw-semibold">Design Consultation</h3>
-                  <p>Creative Pulse Studios</p>
                 </Link>
                 <Link
                   href="#"

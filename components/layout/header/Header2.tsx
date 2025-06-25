@@ -61,11 +61,7 @@ export default function Header2({
                           Portfolio
                         </Link>
                       </li>
-                      {/* <li className="nav-item">
-                        <Link className="nav-link" href="#blog">
-                          Blog
-                        </Link>
-                      </li> */}
+
                       <li className="nav-item">
                         <Link className="nav-link" href="#contact">
                           Contact

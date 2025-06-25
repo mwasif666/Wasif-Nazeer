@@ -23,15 +23,6 @@ export default function Header1({
             top: `${scroll ? "0" : "auto"}`,
           }}
         >
-          <Link
-            href="/#"
-            className="navbar-menu p-4 text-center square-100 menu-tigger icon_80 icon-shape d-none d-md-flex"
-            data-bs-target=".offCanvas__info"
-            aria-controls="offCanvas__info"
-            onClick={handleOffCanvas}
-          >
-            <i className="ri-menu-2-line" />
-          </Link>
           <div className="container py-3 px-0">
             <Link
               className="navbar-brand d-flex main-logo align-items-center ms-lg-0 ms-md-5 ms-3"

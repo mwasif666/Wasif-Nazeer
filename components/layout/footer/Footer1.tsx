@@ -27,9 +27,7 @@ export default function Footer1() {
                 <Link href="/pricing" className="fs-5">
                   Pricing
                 </Link>
-                <Link href="/blog-list" className="fs-5">
-                  Blog
-                </Link>
+
                 <Link href="/#contact" className="fs-5">
                   Contact
                 </Link>
